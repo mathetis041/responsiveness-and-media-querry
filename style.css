@@ -177,25 +177,11 @@ footer{
 }
 .contact-detail2{
     display:flex;
+    justify-content:space-between;
+    gap:25px;
     margin-top:30px;
-}
-.contact-detail2 img{
-    margin-left:0px;
-}
-.contact-detail2 p{
-    position:relative;
-    right:140px;
-}
-.contact-detail3{
-    display:flex;
-    margin-top:30px;
-}
-.contact-detail3 img{
-    margin-left:0px;
-}
-.contact-detail3 p{
-    position:relative;
-    right:115px;
+    width:200px;
+    float:left;
 }
 
 .social-icons{
@@ -428,28 +414,16 @@ ul li{
     }
     .contact-detail2{
         display:flex;
+        gap:5px;
         margin-top:30px;
     }
     .contact-detail2 img{
-        width:20px;
+        width:17px;
+        
         margin-left:0px;
     }
-    .contact-detail2 p{
-        position:relative;
-        right:100px;
-    }
-    .contact-detail3{
-        display:flex;
-        margin-top:30px;
-    }
-    .contact-detail3 img{
-        width:20px;
-        margin-left:0px;
-    }
-    .contact-detail3 p{
-        position:relative;
-        right:75px;
-    }
+    
+    
     .anchors{
         margin-left:0;
         margin-top:60px;;
